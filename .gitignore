@@ -1,0 +1,31 @@
+# Результаты сборки
+**/bin/
+**/obj/
+artifacts/
+
+# Rider и Visual Studio
+.idea/
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Результаты тестов и покрытия
+**/TestResults/
+**/coverage/
+*.coverage
+*.coveragexml
+
+# Логи
+*.log
+
+# Локальные настройки
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Системные файлы
+.DS_Store
+Thumbs.db
